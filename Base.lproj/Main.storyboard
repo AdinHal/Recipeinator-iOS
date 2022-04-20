@@ -18,110 +18,71 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Adg-13-vzm">
-                                <rect key="frame" x="35" y="87" width="98" height="36"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="Bbz-1n-Ybc"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="emailTextField" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter Your Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LU0-2b-J5D">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="emailTextField" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter Your Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LU0-2b-J5D">
                                 <rect key="frame" x="34" y="177" width="344" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" textContentType="email"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="passwordTextField" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter Your Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dgY-W5-2Zg">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="passwordTextField" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter Your Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dgY-W5-2Zg">
                                 <rect key="frame" x="34" y="254" width="344" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="t5U-gs-Dhk"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79Y-zV-cdL">
-                                <rect key="frame" x="34" y="151" width="38" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="18" id="unQ-dz-1Q0"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79Y-zV-cdL">
+                                <rect key="frame" x="35" y="151" width="194" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRs-mD-w08">
-                                <rect key="frame" x="35" y="228" width="66" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="18" id="A4a-Cz-QWs"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRs-mD-w08">
+                                <rect key="frame" x="35" y="228" width="194" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot Your password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNe-gs-Ynw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Forgot Your password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNe-gs-Ynw">
                                 <rect key="frame" x="35" y="296" width="133" height="15"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="15" id="SJ6-RQ-FLz"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="10"/>
                                 <color key="textColor" systemColor="systemBlueColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fff-Of-7yF">
-                                <rect key="frame" x="42" y="404" width="328" height="31"/>
-                                <accessibility key="accessibilityConfiguration" identifier="dontHaveAccountButton"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="95A-eI-Z76"/>
-                                </constraints>
-                                <color key="tintColor" systemColor="linkColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Not a member yet? Register now"/>
-                                <connections>
-                                    <action selector="handleShowSignUp:" destination="d8a-h0-ff0" eventType="touchUpInside" id="Min-Rt-75v"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dh0-YN-8xJ">
-                                <rect key="frame" x="34" y="349" width="344" height="47"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dh0-YN-8xJ">
+                                <rect key="frame" x="35" y="349" width="343" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Log in"/>
                                 <connections>
                                     <action selector="handleLogin:" destination="d8a-h0-ff0" eventType="touchUpInside" id="Sst-52-L6v"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fff-Of-7yF">
+                                <rect key="frame" x="47" y="404" width="318" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="dontHaveAccountButton"/>
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Not a member yet? Register now">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="handleShowSignUp:" destination="d8a-h0-ff0" eventType="touchUpInside" id="Min-Rt-75v"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Log in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Adg-13-vzm">
+                                <rect key="frame" x="34" y="65" width="133" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hpE-jg-mbC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="hpE-jg-mbC" firstAttribute="trailing" secondItem="dgY-W5-2Zg" secondAttribute="trailing" constant="50" id="0Oj-lo-wnl"/>
-                            <constraint firstItem="Fff-Of-7yF" firstAttribute="top" secondItem="Dh0-YN-8xJ" secondAttribute="bottom" constant="8" id="0ir-hB-xXq"/>
-                            <constraint firstItem="WNe-gs-Ynw" firstAttribute="top" secondItem="dgY-W5-2Zg" secondAttribute="bottom" constant="8" symbolic="YES" id="1lo-9M-Tyk"/>
-                            <constraint firstItem="LU0-2b-J5D" firstAttribute="top" secondItem="79Y-zV-cdL" secondAttribute="bottom" constant="8" symbolic="YES" id="3Qy-wN-oEi"/>
-                            <constraint firstItem="hpE-jg-mbC" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Adg-13-vzm" secondAttribute="trailing" symbolic="YES" id="Ate-Gw-JyI"/>
-                            <constraint firstItem="Fff-Of-7yF" firstAttribute="leading" secondItem="pRs-mD-w08" secondAttribute="leading" constant="7" id="CFo-Qe-rv6"/>
-                            <constraint firstItem="Fff-Of-7yF" firstAttribute="leading" secondItem="WNe-gs-Ynw" secondAttribute="leading" constant="7" id="DPK-GP-0HL"/>
-                            <constraint firstItem="hpE-jg-mbC" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="79Y-zV-cdL" secondAttribute="trailing" symbolic="YES" id="GrS-AZ-tJc"/>
-                            <constraint firstItem="Dh0-YN-8xJ" firstAttribute="top" secondItem="WNe-gs-Ynw" secondAttribute="bottom" constant="38" id="J8b-Ww-iv9"/>
-                            <constraint firstItem="hpE-jg-mbC" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pRs-mD-w08" secondAttribute="trailing" symbolic="YES" id="JAW-RT-hUm"/>
-                            <constraint firstItem="hpE-jg-mbC" firstAttribute="trailing" secondItem="LU0-2b-J5D" secondAttribute="trailing" constant="50" id="KkY-Ax-Ege"/>
-                            <constraint firstItem="LU0-2b-J5D" firstAttribute="leading" secondItem="dgY-W5-2Zg" secondAttribute="leading" id="Kmc-aJ-hSi"/>
-                            <constraint firstItem="Fff-Of-7yF" firstAttribute="top" secondItem="WNe-gs-Ynw" secondAttribute="bottom" constant="93" id="Kri-bZ-fsQ"/>
-                            <constraint firstItem="hpE-jg-mbC" firstAttribute="trailing" secondItem="WNe-gs-Ynw" secondAttribute="trailing" constant="260" id="QHU-uB-h2I"/>
-                            <constraint firstItem="hpE-jg-mbC" firstAttribute="trailing" secondItem="Adg-13-vzm" secondAttribute="trailing" constant="295" id="QLA-Je-BSt"/>
-                            <constraint firstItem="Fff-Of-7yF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dgY-W5-2Zg" secondAttribute="leading" id="QuE-3T-Rbn"/>
-                            <constraint firstItem="Dh0-YN-8xJ" firstAttribute="trailing" secondItem="dgY-W5-2Zg" secondAttribute="trailing" id="TVp-eB-Qpx"/>
-                            <constraint firstItem="hpE-jg-mbC" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="WNe-gs-Ynw" secondAttribute="trailing" symbolic="YES" id="Vvi-rD-Gcy"/>
-                            <constraint firstItem="hpE-jg-mbC" firstAttribute="trailing" secondItem="79Y-zV-cdL" secondAttribute="trailing" constant="356" id="aCD-VX-KO2"/>
-                            <constraint firstItem="hpE-jg-mbC" firstAttribute="trailing" secondItem="pRs-mD-w08" secondAttribute="trailing" constant="327" id="bQ0-PM-TjL"/>
-                            <constraint firstItem="Dh0-YN-8xJ" firstAttribute="leading" secondItem="dgY-W5-2Zg" secondAttribute="leading" id="eHu-CD-BO3"/>
-                            <constraint firstItem="Fff-Of-7yF" firstAttribute="centerX" secondItem="dgY-W5-2Zg" secondAttribute="centerX" id="ecS-Cf-JgW"/>
-                            <constraint firstItem="Adg-13-vzm" firstAttribute="top" secondItem="hpE-jg-mbC" secondAttribute="top" constant="43" id="j3U-2S-Ipl"/>
-                            <constraint firstItem="Adg-13-vzm" firstAttribute="leading" secondItem="hpE-jg-mbC" secondAttribute="leading" constant="35" id="jf2-Q1-8y0"/>
-                            <constraint firstItem="LU0-2b-J5D" firstAttribute="leading" secondItem="79Y-zV-cdL" secondAttribute="leading" id="kzb-HY-ArH"/>
-                            <constraint firstItem="hpE-jg-mbC" firstAttribute="bottom" secondItem="Fff-Of-7yF" secondAttribute="bottom" constant="457" id="msL-iE-2Ox"/>
-                            <constraint firstItem="pRs-mD-w08" firstAttribute="top" secondItem="LU0-2b-J5D" secondAttribute="bottom" constant="17" id="x7U-0e-awR"/>
-                            <constraint firstItem="LU0-2b-J5D" firstAttribute="top" secondItem="70J-Os-rXg" secondAttribute="top" constant="177" id="xe8-Fm-zR5"/>
-                            <constraint firstItem="hpE-jg-mbC" firstAttribute="trailing" secondItem="Fff-Of-7yF" secondAttribute="trailing" constant="58" id="yZ4-qD-FPv"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="EmailTekst" destination="LU0-2b-J5D" id="BWm-oK-w0K"/>
@@ -142,40 +103,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tx-SW-m0h">
-                                <rect key="frame" x="43" y="89" width="118" height="36"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="Z3R-98-KM8"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="118" id="iBj-C2-JhD"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tx-SW-m0h">
+                                <rect key="frame" x="43" y="89" width="229" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter Your Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dT4-X6-DCI">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter Your Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dT4-X6-DCI">
                                 <rect key="frame" x="43" y="310" width="343" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="ApQ-Ky-G08"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="DIP-sd-i37"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="email"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter Your Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vsf-ed-yUS">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter Your Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vsf-ed-yUS">
                                 <rect key="frame" x="43" y="385" width="343" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="j3P-wx-H9z"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="sY5-G2-1mi"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" textContentType="password"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwC-Oo-fuZ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwC-Oo-fuZ">
                                 <rect key="frame" x="43" y="470" width="343" height="47"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="AOK-zz-FXb"/>
-                                    <constraint firstAttribute="height" constant="47" id="IR2-kY-v61"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -188,66 +137,49 @@
                                     <action selector="handleRegister:" destination="rCI-BD-c2t" eventType="touchUpInside" id="OX4-Jp-v7K"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FlJ-GF-deM">
-                                <rect key="frame" x="43" y="284" width="37" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="18" id="U9X-Hc-iyY"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="37" id="kcm-E6-hJu"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FlJ-GF-deM">
+                                <rect key="frame" x="43" y="284" width="184" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7X-Qo-cuX">
-                                <rect key="frame" x="43" y="359" width="66" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="66" id="GYQ-RL-y9u"/>
-                                    <constraint firstAttribute="height" constant="18" id="KzD-vG-JQG"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7X-Qo-cuX">
+                                <rect key="frame" x="43" y="359" width="184" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter Your full name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I4N-f6-pi8">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter Your full name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I4N-f6-pi8">
                                 <rect key="frame" x="43" y="167" width="343" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="5NA-dU-Lz7"/>
-                                    <constraint firstAttribute="height" constant="34" id="VUn-ip-iJh"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="name"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City, Country" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6aD-a0-Qs8">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City, Country" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6aD-a0-Qs8">
                                 <rect key="frame" x="43" y="242" width="343" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="cqz-ao-xej"/>
-                                    <constraint firstAttribute="height" constant="34" id="zMk-Mh-5YN"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="address-level1+2"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vU3-bl-emS">
-                                <rect key="frame" x="43" y="141" width="41" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="41" id="UfA-qF-zdZ"/>
-                                    <constraint firstAttribute="height" constant="18" id="sKp-qK-8qU"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vU3-bl-emS">
+                                <rect key="frame" x="43" y="141" width="184" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfo-2w-Ida">
-                                <rect key="frame" x="43" y="216" width="59" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="59" id="dyV-zl-4in"/>
-                                    <constraint firstAttribute="height" constant="18" id="umN-z5-obq"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfo-2w-Ida">
+                                <rect key="frame" x="43" y="216" width="184" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYM-Jp-tXG">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYM-Jp-tXG">
                                 <rect key="frame" x="54" y="541" width="321" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="linkColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Already a member? Log in">
@@ -260,52 +192,6 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pCK-4s-cMh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="vU3-bl-emS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vsf-ed-yUS" secondAttribute="leading" id="0eS-mS-n32"/>
-                            <constraint firstItem="pCK-4s-cMh" firstAttribute="trailing" secondItem="7tx-SW-m0h" secondAttribute="trailing" constant="267" id="18Z-WU-ohi"/>
-                            <constraint firstItem="pCK-4s-cMh" firstAttribute="trailing" secondItem="vsf-ed-yUS" secondAttribute="trailing" constant="42" id="26H-yx-qij"/>
-                            <constraint firstItem="pCK-4s-cMh" firstAttribute="trailing" secondItem="dT4-X6-DCI" secondAttribute="trailing" constant="42" id="2XL-RF-lTM"/>
-                            <constraint firstItem="vU3-bl-emS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="e7X-Qo-cuX" secondAttribute="leading" id="3b2-pq-6IL"/>
-                            <constraint firstItem="pCK-4s-cMh" firstAttribute="trailing" secondItem="I4N-f6-pi8" secondAttribute="trailing" constant="42" id="4Gm-Ix-cgZ"/>
-                            <constraint firstItem="vU3-bl-emS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="I4N-f6-pi8" secondAttribute="leading" id="5T7-hn-xwm"/>
-                            <constraint firstItem="e7X-Qo-cuX" firstAttribute="top" secondItem="dT4-X6-DCI" secondAttribute="bottom" constant="15" id="900-8S-4Vb"/>
-                            <constraint firstItem="pCK-4s-cMh" firstAttribute="trailing" secondItem="NwC-Oo-fuZ" secondAttribute="trailing" constant="42" id="Bmq-DJ-L2I"/>
-                            <constraint firstItem="Nfo-2w-Ida" firstAttribute="top" secondItem="I4N-f6-pi8" secondAttribute="bottom" constant="15" id="Cgl-Uq-fud"/>
-                            <constraint firstItem="FlJ-GF-deM" firstAttribute="top" secondItem="6aD-a0-Qs8" secondAttribute="bottom" constant="8" symbolic="YES" id="DNh-Go-e85"/>
-                            <constraint firstItem="vsf-ed-yUS" firstAttribute="top" secondItem="e7X-Qo-cuX" secondAttribute="bottom" constant="8" symbolic="YES" id="Dch-5V-YJR"/>
-                            <constraint firstItem="vU3-bl-emS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7tx-SW-m0h" secondAttribute="leading" id="DrY-9d-Dxo"/>
-                            <constraint firstItem="pCK-4s-cMh" firstAttribute="trailing" secondItem="vU3-bl-emS" secondAttribute="trailing" constant="344" id="Eok-tO-h7b"/>
-                            <constraint firstItem="pCK-4s-cMh" firstAttribute="trailing" secondItem="6aD-a0-Qs8" secondAttribute="trailing" constant="42" id="HEM-JH-NfT"/>
-                            <constraint firstItem="pCK-4s-cMh" firstAttribute="bottom" secondItem="IYM-Jp-tXG" secondAttribute="bottom" constant="320" id="IeG-4O-xwE"/>
-                            <constraint firstItem="Nfo-2w-Ida" firstAttribute="top" secondItem="I4N-f6-pi8" secondAttribute="bottom" constant="15" id="MP4-nS-zQZ"/>
-                            <constraint firstItem="IYM-Jp-tXG" firstAttribute="top" secondItem="NwC-Oo-fuZ" secondAttribute="bottom" constant="24" id="NcL-WE-dLs"/>
-                            <constraint firstItem="NwC-Oo-fuZ" firstAttribute="top" secondItem="vsf-ed-yUS" secondAttribute="bottom" constant="51" id="NsR-Qu-yOX"/>
-                            <constraint firstItem="dT4-X6-DCI" firstAttribute="top" secondItem="FlJ-GF-deM" secondAttribute="bottom" constant="8" symbolic="YES" id="Qjy-Dj-BKe"/>
-                            <constraint firstItem="NwC-Oo-fuZ" firstAttribute="top" secondItem="vsf-ed-yUS" secondAttribute="bottom" constant="51" id="RZ0-U8-NBX"/>
-                            <constraint firstItem="I4N-f6-pi8" firstAttribute="top" secondItem="vU3-bl-emS" secondAttribute="bottom" constant="8" symbolic="YES" id="SPB-Io-qdW"/>
-                            <constraint firstItem="pCK-4s-cMh" firstAttribute="trailing" secondItem="Nfo-2w-Ida" secondAttribute="trailing" constant="326" id="Shy-vp-Zhf"/>
-                            <constraint firstItem="6aD-a0-Qs8" firstAttribute="top" secondItem="Nfo-2w-Ida" secondAttribute="bottom" constant="8" symbolic="YES" id="Uhx-OZ-djf"/>
-                            <constraint firstItem="pCK-4s-cMh" firstAttribute="trailing" secondItem="FlJ-GF-deM" secondAttribute="trailing" constant="348" id="Wa7-aa-Uko"/>
-                            <constraint firstItem="vU3-bl-emS" firstAttribute="leading" secondItem="pCK-4s-cMh" secondAttribute="leading" constant="43" id="Wkb-kf-PlH"/>
-                            <constraint firstItem="vU3-bl-emS" firstAttribute="top" secondItem="7tx-SW-m0h" secondAttribute="bottom" constant="16" id="YRs-5A-Khc"/>
-                            <constraint firstItem="vU3-bl-emS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dT4-X6-DCI" secondAttribute="leading" id="Z65-Gp-XvL"/>
-                            <constraint firstItem="dT4-X6-DCI" firstAttribute="top" secondItem="FlJ-GF-deM" secondAttribute="bottom" constant="8" symbolic="YES" id="abx-bu-Q49"/>
-                            <constraint firstItem="pCK-4s-cMh" firstAttribute="trailing" secondItem="e7X-Qo-cuX" secondAttribute="trailing" constant="319" id="b2u-dy-8m0"/>
-                            <constraint firstItem="vU3-bl-emS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6aD-a0-Qs8" secondAttribute="leading" id="d9g-4m-qaq"/>
-                            <constraint firstItem="IYM-Jp-tXG" firstAttribute="leading" secondItem="pCK-4s-cMh" secondAttribute="leading" constant="54" id="dQL-wo-22x"/>
-                            <constraint firstItem="vU3-bl-emS" firstAttribute="top" secondItem="Um9-Yg-6dv" secondAttribute="top" constant="141" id="dzr-fs-yUR"/>
-                            <constraint firstItem="vU3-bl-emS" firstAttribute="top" secondItem="7tx-SW-m0h" secondAttribute="bottom" constant="16" id="eTQ-Hy-S0X"/>
-                            <constraint firstItem="vU3-bl-emS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="NwC-Oo-fuZ" secondAttribute="leading" id="fO9-kB-B9z"/>
-                            <constraint firstItem="IYM-Jp-tXG" firstAttribute="centerX" secondItem="NwC-Oo-fuZ" secondAttribute="centerX" id="gDP-yT-IJl"/>
-                            <constraint firstItem="vsf-ed-yUS" firstAttribute="top" secondItem="e7X-Qo-cuX" secondAttribute="bottom" constant="8" symbolic="YES" id="gee-V5-Bk8"/>
-                            <constraint firstItem="vU3-bl-emS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FlJ-GF-deM" secondAttribute="leading" id="hyq-dE-aZe"/>
-                            <constraint firstItem="e7X-Qo-cuX" firstAttribute="top" secondItem="dT4-X6-DCI" secondAttribute="bottom" constant="15" id="mhk-Hq-fdp"/>
-                            <constraint firstItem="6aD-a0-Qs8" firstAttribute="top" secondItem="Nfo-2w-Ida" secondAttribute="bottom" constant="8" symbolic="YES" id="mtE-Fs-W3s"/>
-                            <constraint firstItem="I4N-f6-pi8" firstAttribute="top" secondItem="vU3-bl-emS" secondAttribute="bottom" constant="8" symbolic="YES" id="p7c-lp-6RX"/>
-                            <constraint firstItem="FlJ-GF-deM" firstAttribute="top" secondItem="6aD-a0-Qs8" secondAttribute="bottom" constant="8" symbolic="YES" id="qFx-jH-eiY"/>
-                            <constraint firstItem="vU3-bl-emS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Nfo-2w-Ida" secondAttribute="leading" id="rwT-WB-Wfg"/>
-                            <constraint firstItem="IYM-Jp-tXG" firstAttribute="centerX" secondItem="vsf-ed-yUS" secondAttribute="centerX" id="tHF-2a-H6F"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2bC-bb-Xd4"/>
                     <connections>
@@ -330,7 +216,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What do You want to cook today" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8v-AJ-RYr">
-                                <rect key="frame" x="20" y="81" width="230" height="64"/>
+                                <rect key="frame" x="20" y="81" width="220" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="22"/>
                                 <nil key="textColor"/>
@@ -355,22 +241,13 @@
                                 </menu>
                                 <state key="normal" image="temporary_profilepic"/>
                             </button>
-                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5N-ut-d2N">
-                                <rect key="frame" x="361" y="106" width="35" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Sign Out"/>
-                                <connections>
-                                    <action selector="signOutUser:" destination="igw-AR-dqE" eventType="touchUpInside" id="BPf-0X-Vjz"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m3y-8v-jh4">
-                                <rect key="frame" x="10" y="272" width="408" height="550"/>
+                                <rect key="frame" x="20" y="272" width="468" height="550"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" id="2JV-vP-Ae2">
-                                        <rect key="frame" x="5" y="31" width="418" height="537"/>
-                                        <autoresizingMask key="autoresizingMask"/>
+                                        <rect key="frame" x="5" y="24" width="418" height="548"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Zo8-XA-vk2">
                                             <size key="itemSize" width="211" height="507"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -379,8 +256,8 @@
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="bottomCell" id="sV4-rn-7it" customClass="bottomCollectionViewCell" customModule="Recipe_inator" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="15" width="211" height="507"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <rect key="frame" x="0.0" y="20.666666666666668" width="211" height="507"/>
+                                                <autoresizingMask key="autoresizingMask"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="68d-1e-Uqd">
                                                     <rect key="frame" x="0.0" y="0.0" width="211" height="507"/>
                                                     <autoresizingMask key="autoresizingMask"/>
@@ -431,14 +308,14 @@
                                         </connections>
                                     </collectionView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Popular recipes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w1l-wm-Zm5">
-                                        <rect key="frame" x="5" y="8" width="136" height="24"/>
+                                        <rect key="frame" x="5" y="7.9999999999999982" width="121" height="19.333333333333329"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <color key="textColor" red="0.1963045001" green="0.19164800639999999" blue="0.2156894207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAE-lZ-EDH">
-                                        <rect key="frame" x="318" y="5" width="90" height="31"/>
+                                        <rect key="frame" x="287.33333333333331" y="1" width="90" height="33.333333333333336"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" systemColor="systemGrayColor"/>
                                         <state key="normal" title="Button"/>
@@ -449,76 +326,12 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R9U-5d-Hc9">
-                                <rect key="frame" x="138" y="111" width="187" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aql-m9-wJP">
-                                <rect key="frame" x="47" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="home_dark"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRj-tX-m73">
-                                <rect key="frame" x="122" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_search_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="ScL-Ts-hQk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vuv-XH-kYJ">
-                                <rect key="frame" x="347" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_profile_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="profileButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="AxF-Ur-4Nq"/>
-                                    <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="poZ-oG-Vw3"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="ugg-Wi-H07"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RO9-Gt-vs0">
-                                <rect key="frame" x="197" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_createrecipe_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="XjX-wt-fuq"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="x9A-Z4-Arz"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8C-AB-Mwn">
-                                <rect key="frame" x="272" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_list_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="groceriesButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="TUi-gs-QWN"/>
-                                    <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="zJj-cH-6ZC"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="LnI-e8-fvD"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ZG-lN-Bp3">
-                                <rect key="frame" x="20" y="200" width="94" height="29"/>
+                                <rect key="frame" x="20" y="190" width="94" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLd-W1-YAD">
-                                        <rect key="frame" x="6" y="5" width="20" height="20"/>
+                                        <rect key="frame" x="6" y="6" width="20" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemGray6Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -530,8 +343,8 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trending" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGR-PN-owL">
-                                        <rect key="frame" x="29" y="5" width="65" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" fixedFrame="YES" text="Trending" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGR-PN-owL">
+                                        <rect key="frame" x="29" y="6" width="60" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -555,11 +368,11 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="InB-rL-Maw">
-                                <rect key="frame" x="134" y="200" width="94" height="29"/>
+                                <rect key="frame" x="134" y="190" width="94" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSM-oK-TUa">
-                                        <rect key="frame" x="6" y="5" width="20" height="20"/>
+                                        <rect key="frame" x="6" y="6" width="20" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemGray6Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -572,14 +385,14 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vegan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grX-7r-C8X">
-                                        <rect key="frame" x="29" y="5" width="65" height="21"/>
+                                        <rect key="frame" x="29" y="6" width="60" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="472-gC-mcH">
-                                        <rect key="frame" x="0.0" y="-1" width="94" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain"/>
@@ -596,11 +409,11 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LPx-0k-iSa">
-                                <rect key="frame" x="248" y="200" width="94" height="29"/>
+                                <rect key="frame" x="249" y="190" width="94" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aaV-eD-fDD">
-                                        <rect key="frame" x="6" y="5" width="20" height="20"/>
+                                        <rect key="frame" x="6" y="6" width="20" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemGray6Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -613,17 +426,17 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Zw-XZ-bVG">
-                                        <rect key="frame" x="29" y="5" width="65" height="21"/>
+                                        <rect key="frame" x="29" y="6" width="57" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bE5-7W-5qL">
-                                        <rect key="frame" x="0.0" y="-1" width="94" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain"/>
+                                        <buttonConfiguration key="configuration" style="plain" title=""/>
                                         <connections>
                                             <action selector="viewAllRecipes:" destination="igw-AR-dqE" eventType="touchUpInside" id="wtZ-dx-fpx"/>
                                         </connections>
@@ -636,8 +449,72 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gbF-Ux-xxK">
+                                <rect key="frame" x="-16" y="848" width="460" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aql-m9-wJP">
+                                        <rect key="frame" x="40" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="home_dark"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRj-tX-m73">
+                                        <rect key="frame" x="120" y="9" width="45" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_search_black">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="ScL-Ts-hQk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vuv-XH-kYJ">
+                                        <rect key="frame" x="360" y="8" width="48" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_profile_black">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="profileButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="AxF-Ur-4Nq"/>
+                                            <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="poZ-oG-Vw3"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="ugg-Wi-H07"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RO9-Gt-vs0">
+                                        <rect key="frame" x="200" y="7" width="48" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_createrecipe_black">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="XjX-wt-fuq"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="x9A-Z4-Arz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8C-AB-Mwn">
+                                        <rect key="frame" x="280" y="8" width="48" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_list_black">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="groceriesButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="TUi-gs-QWN"/>
+                                            <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="zJj-cH-6ZC"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="LnI-e8-fvD"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HpR-9i-PX3">
-                                <rect key="frame" x="351" y="200" width="54" height="29"/>
+                                <rect key="frame" x="373" y="190" width="35" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.right" catalog="system"/>
@@ -657,7 +534,7 @@
                         <outlet property="smallViewThreeImage" destination="aaV-eD-fDD" id="YPZ-ht-cES"/>
                         <outlet property="smallViewTwo" destination="InB-rL-Maw" id="ldk-Es-yTG"/>
                         <outlet property="smallViewTwoImage" destination="FSM-oK-TUa" id="RdL-sp-GEo"/>
-                        <outlet property="usernameLbl" destination="R9U-5d-Hc9" id="W8k-ZM-Fvq"/>
+                        <outlet property="welcomingText" destination="c8v-AJ-RYr" id="4H8-yr-ZtG"/>
                         <segue destination="d8a-h0-ff0" kind="presentation" identifier="homeToLogin" modalPresentationStyle="fullScreen" id="ZdI-TR-XJ3"/>
                         <segue destination="doA-QU-oDG" kind="presentation" identifier="homeToSearch" modalPresentationStyle="fullScreen" id="Spp-AU-IRl"/>
                         <segue destination="zZT-vL-TFH" kind="presentation" identifier="homeToRecipe" modalPresentationStyle="fullScreen" id="Vfq-Vi-anA"/>
@@ -694,7 +571,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dZo-nj-p1N">
-                                <rect key="frame" x="11" y="202" width="397" height="647"/>
+                                <rect key="frame" x="11" y="202" width="397" height="638"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="x9B-gP-tEa">
@@ -789,64 +666,71 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QrA-NJ-kFz">
-                                <rect key="frame" x="47" y="857" width="35" height="35"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QxG-9M-H0C">
+                                <rect key="frame" x="-16" y="848" width="460" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="home_light">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="homeBtnNavigation:" destination="doA-QU-oDG" eventType="touchUpInside" id="SU7-Le-KCP"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y91-w7-o6X">
-                                <rect key="frame" x="122" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="navicon_search_white"/>
-                                <connections>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="WLm-km-0es"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFI-H4-jle">
-                                <rect key="frame" x="197" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_createrecipe_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="recipeBtnNavigation:" destination="doA-QU-oDG" eventType="touchUpInside" id="diW-9x-SyZ"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="7we-2L-2GC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BxP-pJ-MXJ">
-                                <rect key="frame" x="272" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_list_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="groceriesBtnNavigation:" destination="doA-QU-oDG" eventType="touchUpInside" id="Vhd-vz-68g"/>
-                                    <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="0ne-Vk-24B"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="ISN-d1-E9l"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OpB-9T-TJ6">
-                                <rect key="frame" x="347" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_profile_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="profileBtnNavigation:" destination="doA-QU-oDG" eventType="touchUpInside" id="B5f-sM-D1e"/>
-                                    <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="89x-yA-Ifs"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="bUi-sX-AwA"/>
-                                </connections>
-                            </button>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QrA-NJ-kFz">
+                                        <rect key="frame" x="40" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="home_light">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="homeBtnNavigation:" destination="doA-QU-oDG" eventType="touchUpInside" id="SU7-Le-KCP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y91-w7-o6X">
+                                        <rect key="frame" x="120" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="navicon_search_white"/>
+                                        <connections>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="WLm-km-0es"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFI-H4-jle">
+                                        <rect key="frame" x="200" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_createrecipe_black">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="recipeBtnNavigation:" destination="doA-QU-oDG" eventType="touchUpInside" id="diW-9x-SyZ"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="7we-2L-2GC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BxP-pJ-MXJ">
+                                        <rect key="frame" x="280" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_list_black">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="groceriesBtnNavigation:" destination="doA-QU-oDG" eventType="touchUpInside" id="Vhd-vz-68g"/>
+                                            <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="0ne-Vk-24B"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="ISN-d1-E9l"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OpB-9T-TJ6">
+                                        <rect key="frame" x="360" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_profile_black" title="">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="profileBtnNavigation:" destination="doA-QU-oDG" eventType="touchUpInside" id="B5f-sM-D1e"/>
+                                            <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="89x-yA-Ifs"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="bUi-sX-AwA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="K4c-6a-vgh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1188,66 +1072,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUk-7l-OTV">
-                                <rect key="frame" x="47" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="home_light">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="homeBtnNavigation:" destination="doA-QU-oDG" eventType="touchUpInside" id="VuT-5q-4rN"/>
-                                    <action selector="homeBtnNavigation:" destination="zZT-vL-TFH" eventType="touchUpInside" id="fWP-6b-5FU"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwY-zg-EoM">
-                                <rect key="frame" x="122" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_search_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="searchBtnNavigation:" destination="zZT-vL-TFH" eventType="touchUpInside" id="81O-BU-dkB"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="DCu-hs-tuf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l72-RC-9EZ">
-                                <rect key="frame" x="272" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_list_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="groceriesBtnNavigationn:" destination="zZT-vL-TFH" eventType="touchUpInside" id="OdF-J0-wXw"/>
-                                    <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="PBN-xg-ToK"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="laD-dq-CJC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjB-s4-8Ta">
-                                <rect key="frame" x="347" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_profile_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="profileBtnNavigation:" destination="zZT-vL-TFH" eventType="touchUpInside" id="CRu-dY-w8B"/>
-                                    <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="Guw-KX-hxz"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="bPH-xo-Z3w"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYd-A7-7CY">
-                                <rect key="frame" x="197" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="navicon_createrecipe_white"/>
-                                <connections>
-                                    <action selector="recipeBtnNavigation:" destination="doA-QU-oDG" eventType="touchUpInside" id="XCa-Fg-BlH"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="jN9-La-zNC"/>
-                                </connections>
-                            </button>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="24" translatesAutoresizingMaskIntoConstraints="NO" id="TBo-fz-JBm">
                                 <rect key="frame" x="87" y="413" width="94" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1313,6 +1137,73 @@
                                     <action selector="selectImage:" destination="zZT-vL-TFH" eventType="touchUpInside" id="Y8F-vK-EVK"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="si8-ps-v3K">
+                                <rect key="frame" x="-16" y="848" width="460" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUk-7l-OTV">
+                                        <rect key="frame" x="40" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="home_light">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="homeBtnNavigation:" destination="doA-QU-oDG" eventType="touchUpInside" id="VuT-5q-4rN"/>
+                                            <action selector="homeBtnNavigation:" destination="zZT-vL-TFH" eventType="touchUpInside" id="fWP-6b-5FU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwY-zg-EoM">
+                                        <rect key="frame" x="120" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_search_black">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="searchBtnNavigation:" destination="zZT-vL-TFH" eventType="touchUpInside" id="81O-BU-dkB"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="DCu-hs-tuf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l72-RC-9EZ">
+                                        <rect key="frame" x="280" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_list_black">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="groceriesBtnNavigationn:" destination="zZT-vL-TFH" eventType="touchUpInside" id="OdF-J0-wXw"/>
+                                            <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="PBN-xg-ToK"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="laD-dq-CJC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjB-s4-8Ta">
+                                        <rect key="frame" x="360" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_profile_black">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="profileBtnNavigation:" destination="zZT-vL-TFH" eventType="touchUpInside" id="CRu-dY-w8B"/>
+                                            <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="Guw-KX-hxz"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="bPH-xo-Z3w"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYd-A7-7CY">
+                                        <rect key="frame" x="200" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="navicon_createrecipe_white"/>
+                                        <connections>
+                                            <action selector="recipeBtnNavigation:" destination="doA-QU-oDG" eventType="touchUpInside" id="XCa-Fg-BlH"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="jN9-La-zNC"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wSg-Ix-caZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1378,65 +1269,6 @@
                                     <action selector="createGrocery" destination="b0W-Wz-f4e" eventType="touchUpInside" id="cdc-ib-KgO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJ4-Dz-8dO">
-                                <rect key="frame" x="47" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="home_light">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="homeBtnNavigation:" destination="b0W-Wz-f4e" eventType="touchUpInside" id="1Sg-YD-0Re"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTw-9L-G1k">
-                                <rect key="frame" x="122" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_search_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="searchBtnNavigation:" destination="b0W-Wz-f4e" eventType="touchUpInside" id="I7C-TM-fND"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="eQU-TH-Z7p"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wpa-EK-KI5">
-                                <rect key="frame" x="197" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_createrecipe_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="Uzv-BE-r5v"/>
-                                    <action selector="recipesBtnNavigation:" destination="b0W-Wz-f4e" eventType="touchUpInside" id="3Zx-14-yo1"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="K7U-7X-QOa"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5J-Gk-TWi">
-                                <rect key="frame" x="272" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="navicon_list_white"/>
-                                <connections>
-                                    <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="17f-Ht-BDS"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="2Jz-dG-JiJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7Q-UN-MuG">
-                                <rect key="frame" x="347" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_profile_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="profileBtnNavigation:" destination="b0W-Wz-f4e" eventType="touchUpInside" id="1It-2r-JFd"/>
-                                    <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="HQw-Hu-2Zh"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="yCX-nv-pGT"/>
-                                </connections>
-                            </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="uEW-GA-FkB">
                                 <rect key="frame" x="20" y="201" width="388" height="648"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1495,6 +1327,72 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MHJ-ZN-BvU">
+                                <rect key="frame" x="-16" y="848" width="460" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJ4-Dz-8dO">
+                                        <rect key="frame" x="40" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="home_light">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="homeBtnNavigation:" destination="b0W-Wz-f4e" eventType="touchUpInside" id="1Sg-YD-0Re"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTw-9L-G1k">
+                                        <rect key="frame" x="120" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_search_black">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="searchBtnNavigation:" destination="b0W-Wz-f4e" eventType="touchUpInside" id="I7C-TM-fND"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="eQU-TH-Z7p"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wpa-EK-KI5">
+                                        <rect key="frame" x="200" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_createrecipe_black">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="Uzv-BE-r5v"/>
+                                            <action selector="recipesBtnNavigation:" destination="b0W-Wz-f4e" eventType="touchUpInside" id="3Zx-14-yo1"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="K7U-7X-QOa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5J-Gk-TWi">
+                                        <rect key="frame" x="280" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="navicon_list_white"/>
+                                        <connections>
+                                            <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="17f-Ht-BDS"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="2Jz-dG-JiJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7Q-UN-MuG">
+                                        <rect key="frame" x="360" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_profile_black">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="profileBtnNavigation:" destination="b0W-Wz-f4e" eventType="touchUpInside" id="1It-2r-JFd"/>
+                                            <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="HQw-Hu-2Zh"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="yCX-nv-pGT"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OMJ-0i-SW4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1594,68 +1492,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BmF-Sb-dzH">
-                                <rect key="frame" x="47" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="home_light">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="homeBtnNavigation:" destination="b0W-Wz-f4e" eventType="touchUpInside" id="F2M-yS-efe"/>
-                                    <action selector="homeBtnNavigation:" destination="vjr-ZO-h2a" eventType="touchUpInside" id="GXU-pM-Bjf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYY-vm-082">
-                                <rect key="frame" x="122" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_search_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="searchBtnNavigation:" destination="vjr-ZO-h2a" eventType="touchUpInside" id="A8p-hk-6j4"/>
-                                    <action selector="searchBtnNavigation:" destination="b0W-Wz-f4e" eventType="touchUpInside" id="js5-Za-LfI"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="eXk-0J-vKA"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQg-ki-Zc9">
-                                <rect key="frame" x="197" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_createrecipe_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="auQ-Jr-dHc"/>
-                                    <action selector="recipesBtnNavigation:" destination="b0W-Wz-f4e" eventType="touchUpInside" id="IjR-zU-MqC"/>
-                                    <action selector="recipesBtnNavigation:" destination="vjr-ZO-h2a" eventType="touchUpInside" id="Xwb-gk-LfK"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="Agc-Mh-adg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWO-lh-jDW">
-                                <rect key="frame" x="347" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="navicon_profile_white"/>
-                                <connections>
-                                    <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="UqS-px-5Au"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="Ckd-dl-aLw"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Id3-GC-oeE">
-                                <rect key="frame" x="272" y="857" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="navicon_list_black">
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="groceriesBtnNavigation:" destination="vjr-ZO-h2a" eventType="touchUpInside" id="4T8-ZX-iKi"/>
-                                    <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="3gI-0I-6PP"/>
-                                    <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="N0L-r7-ePW"/>
-                                </connections>
-                            </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="wRY-R1-Mni">
                                 <rect key="frame" x="20" y="433" width="408" height="416"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1675,10 +1511,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="193" height="415"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="caesar" translatesAutoresizingMaskIntoConstraints="NO" id="BOX-Y5-pcI">
-                                                    <rect key="frame" x="8" y="8" width="240" height="238"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recipe Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3p1-sw-MLR">
                                                     <rect key="frame" x="8" y="280" width="185" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1686,12 +1518,27 @@
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QKI-yI-U8v">
+                                                    <rect key="frame" x="8" y="8" width="25" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="xmark" catalog="system"/>
+                                                    <connections>
+                                                        <action selector="removeRecipeFromFavourites:" destination="vjr-ZO-h2a" eventType="touchUpInside" id="eYY-ue-hio"/>
+                                                    </connections>
+                                                </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BOX-Y5-pcI">
+                                                    <rect key="frame" x="33" y="37" width="235" height="227"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="193" height="415"/>
                                         <connections>
                                             <outlet property="imageView" destination="BOX-Y5-pcI" id="EK2-mG-UyY"/>
                                             <outlet property="recipeName" destination="3p1-sw-MLR" id="Jnm-bl-VdS"/>
+                                            <outlet property="removeButton" destination="QKI-yI-U8v" id="KnG-Uf-E6K"/>
                                             <segue destination="geW-dS-ZUZ" kind="presentation" identifier="profileToShowRecipe" id="215-0a-BbS"/>
                                         </connections>
                                     </collectionViewCell>
@@ -1701,6 +1548,75 @@
                                     <outlet property="delegate" destination="vjr-ZO-h2a" id="n8R-3a-zLl"/>
                                 </connections>
                             </collectionView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4x6-u5-Rhp">
+                                <rect key="frame" x="-16" y="848" width="460" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BmF-Sb-dzH">
+                                        <rect key="frame" x="40" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="home_light">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="homeBtnNavigation:" destination="b0W-Wz-f4e" eventType="touchUpInside" id="F2M-yS-efe"/>
+                                            <action selector="homeBtnNavigation:" destination="vjr-ZO-h2a" eventType="touchUpInside" id="GXU-pM-Bjf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYY-vm-082">
+                                        <rect key="frame" x="120" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_search_black">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="searchBtnNavigation:" destination="vjr-ZO-h2a" eventType="touchUpInside" id="A8p-hk-6j4"/>
+                                            <action selector="searchBtnNavigation:" destination="b0W-Wz-f4e" eventType="touchUpInside" id="js5-Za-LfI"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="eXk-0J-vKA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQg-ki-Zc9">
+                                        <rect key="frame" x="200" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_createrecipe_black">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="auQ-Jr-dHc"/>
+                                            <action selector="recipesBtnNavigation:" destination="b0W-Wz-f4e" eventType="touchUpInside" id="IjR-zU-MqC"/>
+                                            <action selector="recipesBtnNavigation:" destination="vjr-ZO-h2a" eventType="touchUpInside" id="Xwb-gk-LfK"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="Agc-Mh-adg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWO-lh-jDW">
+                                        <rect key="frame" x="360" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="navicon_profile_white"/>
+                                        <connections>
+                                            <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="UqS-px-5Au"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="Ckd-dl-aLw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Id3-GC-oeE">
+                                        <rect key="frame" x="280" y="8" width="49" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="navicon_list_black">
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="groceriesBtnNavigation:" destination="vjr-ZO-h2a" eventType="touchUpInside" id="4T8-ZX-iKi"/>
+                                            <action selector="recipeButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="3gI-0I-6PP"/>
+                                            <action selector="searchButton:" destination="igw-AR-dqE" eventType="touchUpInside" id="N0L-r7-ePW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dYK-G9-DAf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1722,7 +1638,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="HaH-aQ-CPn"/>
+        <segue reference="3dA-Lu-1Nt"/>
         <segue reference="icW-bf-GJ6"/>
         <segue reference="V7w-jt-Mj2"/>
         <segue reference="215-0a-BbS"/>
@@ -1733,7 +1649,6 @@
     <color key="tintColor" systemColor="labelColor"/>
     <resources>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
-        <image name="caesar" width="1299" height="1042"/>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
         <image name="clock_48pt_1x" width="48" height="48"/>
         <image name="heart" catalog="system" width="128" height="109"/>
@@ -1754,6 +1669,7 @@
         <image name="star_48pt_1x" width="48" height="48"/>
         <image name="temporary_profilepic" width="120" height="120"/>
         <image name="trash" catalog="system" width="121" height="128"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

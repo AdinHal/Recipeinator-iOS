@@ -14,7 +14,6 @@ import SDWebImage
 
 class HomeController: UIViewController{
 
-    @IBOutlet var usernameLbl: UILabel!
     @IBOutlet var smallViewOne: UIView!
     @IBOutlet var smallViewOneImage: UILabel!
     @IBOutlet var smallViewTwo: UIView!
@@ -29,7 +28,8 @@ class HomeController: UIViewController{
     var imageData : [String] = []
     var recipeIDs : [String] = []
     var db = Firestore.firestore()
-   
+    @IBOutlet var welcomingText: UILabel!
+    
     
     // MARK: - Init
     
@@ -69,7 +69,7 @@ class HomeController: UIViewController{
             guard let username = snapshot.value as? String else{return}
             let delimiter = " "
             let token = username.components(separatedBy: delimiter)
-            self.usernameLbl.text = "\(token[0])?"
+            self.welcomingText.text = "What do You want to cook today \(token[0])?"
             self.appendColors()
             self.fetchDataFromDB()
         })
@@ -202,14 +202,15 @@ extension HomeController: UICollectionViewDelegate, UICollectionViewDataSource{
     }
     
     @IBAction func addRecipeToFavourites(_ sender: UIButton) {
+        guard let uid = Auth.auth().currentUser?.uid else{return}
         sender.setImage(UIImage(systemName: "heart.fill"), for: .normal)
         // addToFavourites(sender.tag)
         //let fileNameRandom = randomString(length: 5)
-        guard let uid = Auth.auth().currentUser?.uid else{return}
         db.collection("favorites").document(uid).updateData([
             "\(recipeIDs[sender.tag])" : "\(recipesArray[sender.tag])"
         ]);
     }
+    
 }
 
 extension Array{

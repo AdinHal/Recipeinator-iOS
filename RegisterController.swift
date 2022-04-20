@@ -7,6 +7,7 @@
 
 import UIKit
 import Firebase
+import FirebaseFirestore
 
 class RegisterController: UIViewController{
     
@@ -14,6 +15,7 @@ class RegisterController: UIViewController{
     @IBOutlet var LocationText: UITextField!
     @IBOutlet var EmailText: UITextField!
     @IBOutlet var PwdText: UITextField!
+    var db = Firestore.firestore()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,8 +52,10 @@ class RegisterController: UIViewController{
                     print("Failed to Update Database Values with error: ", error.localizedDescription)
                     return
                 }
-                
-                self.performSegue(withIdentifier: "registerToHome", sender: nil)
+                self.db.collection("favorites").document(uid).setData([:
+                   
+                ]);
+                self.performSegue(withIdentifier: "registerToLogin", sender: nil)
             })
         }
     }

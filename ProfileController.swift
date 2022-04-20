@@ -17,11 +17,10 @@ class ProfileController : UIViewController{
     @IBOutlet var profileNameLabel: UILabel!
     var recipesArray : [String] = []
     var uiColorArray = [UIColor]()
-    var imageData : [String] = []
     var recipeIDs : [String] = []
     var favorites : [String] = []
-    var probni : [String] = []
-    var helper : [String] = []
+    var docIDs : [String] = []
+    var fetchedImages : [String] = []
     var fetchedFavorites : [String : Any] = [:]
     var db = Firestore.firestore()
     
@@ -29,15 +28,12 @@ class ProfileController : UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         loadUserData()
-        appendColors()
-        fetchDataFromDB()
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
         // Do any additional setup after the view appears, typically from a nib.
-        appendColors()
-        fetchDataFromDB()
+        loadUserData()
     }
     
     @IBAction func homeBtnNavigation(_ sender: UIButton) {
@@ -92,7 +88,6 @@ class ProfileController : UIViewController{
         Database.database().reference().child("users").child(uid).child("location").observeSingleEvent(of: .value, with: {(snapshot) in
             guard let location = snapshot.value as? String else{return}
             self.locationLabel.text = location
-            self.fetchDataFromDB()
         })
 
     }
@@ -111,11 +106,13 @@ class ProfileController : UIViewController{
             }
         }
        
-        for (_, value) in fetchedFavorites {
+        for (key, value) in fetchedFavorites {
+            print("Key > \(key) - Value > \(value)")
+            self.recipeIDs.append(key)
             self.favorites.append(value as! String)
         }
         
-        for favorite in favorites{
+        for favorite in favorites.reversed(){
                 self.db.collection("recipes").whereField("name", isEqualTo: favorite)
                     .getDocuments() { (querySnapshot, err) in
                         if let err = err {
@@ -123,23 +120,41 @@ class ProfileController : UIViewController{
                         } else {
                             for document in querySnapshot!.documents {
                                 DispatchQueue.main.async {
-                                    print("\(document.documentID) => \(String(describing: document.data()["imageURL"]))")
-                                    self.probni.append(document.documentID)
-                                    self.helper.append(document.data()["imageURL"] as! String)
-                                    self.imageData.append(("\(document.data()["imageURL"] ?? "nil")"))
-                                    self.collectionView.reloadData()
+                                    //print("\(document.documentID) => \(String(describing: document.data()["imageURL"]))")
+                                   self.docIDs.append(document.documentID)
+                                   self.fetchedImages.append(document.data()["imageURL"] as! String)
+                                   self.collectionView.reloadData()
                                 }
                             }
                         }
                 }
             }
     }
+    
+    @IBAction func removeRecipeFromFavourites(_ sender: UIButton){
+        guard let uid = Auth.auth().currentUser?.uid else{return}
+        db.collection("favorites").document(uid).updateData([
+            "\(recipeIDs[sender.tag])": FieldValue.delete(),
+        ]) { err in
+            if let err = err {
+                print("Error updating document: \(err)")
+            } else {
+                print("Removed: ID > \(self.recipeIDs[sender.tag]) : Name > \(self.docIDs[sender.tag])")
+                self.recipeIDs.remove(at: sender.tag)
+                self.docIDs.remove(at: sender.tag)
+                self.fetchedImages.remove(at: sender.tag)
+                self.collectionView.reloadData()
+                print("Document successfully updated")
+                self.collectionView.reloadData()
+            }
+        }
+    }
 }
 
 extension ProfileController : UICollectionViewDelegate, UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        if favorites.count < 10{
-            return imageData.count
+        if docIDs.count < 10{
+            return docIDs.count
         }else{
             return 10
         }
@@ -148,10 +163,11 @@ extension ProfileController : UICollectionViewDelegate, UICollectionViewDataSour
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "favoriteRecipe", for: indexPath) as! ProfileCollectionViewCell
         
-        cell.recipeName.text = probni[indexPath.row]
+        cell.recipeName.text = docIDs[indexPath.row]
+        cell.removeButton.tag = indexPath.row
         cell.backgroundColor = uiColorArray[indexPath.row]
         cell.layer.cornerRadius = 15
-        cell.imageView.sd_setImage(with: URL(string: helper[indexPath.row]), placeholderImage:UIImage(named: "ceasar"))
+        cell.imageView.sd_setImage(with: URL(string: fetchedImages[indexPath.row]), placeholderImage:UIImage(named: "ceasar"))
         
         return cell
     }
@@ -159,7 +175,7 @@ extension ProfileController : UICollectionViewDelegate, UICollectionViewDataSour
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? ShowRecipeController {
             let selectedRow = collectionView.indexPath(for: sender as! UICollectionViewCell)?.row
-            destination.valueToPass = probni[selectedRow!]
+            destination.valueToPass = docIDs[selectedRow!]
       }
     }
 }

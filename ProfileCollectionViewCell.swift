@@ -10,5 +10,6 @@ import UIKit
 class ProfileCollectionViewCell: UICollectionViewCell {
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var recipeName: UILabel!
+    @IBOutlet var removeButton: UIButton!
     
 }
