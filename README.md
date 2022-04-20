@@ -44,7 +44,7 @@ The app UI was designed by me in Adobe XD.
 ### Future plans and updates
 
 - Making the app fully runnable on all devices
-- Adding the option to remove from favourites
+- Adding the option to remove from favourites ✅ (Added with last update)
 - Optimizing the app further for maximum speed and efficiency
 - Adding a Search Bar in Browse
 - Searching based on categories from the Home Screen tabs
