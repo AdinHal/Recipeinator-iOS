@@ -29,6 +29,7 @@ Note : Everything is connected with Firebase
 - Create Recipe - provide all the infos about the recipe and provide a picture of the recipe
 - Groceries List - being able to add and remove groceries you need to buy
 - Profile - previewing basic info You create while registering, and showing Your last or top 10 recipes that you added to favouirtes
+- User - The user stays logged in even after the app is stopped or re-launched or re-opened
 
 ### Small infos
 
