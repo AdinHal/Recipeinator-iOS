@@ -40,7 +40,7 @@ Recipe-inator started as an idea for a University project in 2021. It was succes
 
 ### UI/UX
 
-The app UI was designed by me in Adobe XD.
+- The app UI was designed by me in Adobe XD.
 
 ### Future plans and updates
 
