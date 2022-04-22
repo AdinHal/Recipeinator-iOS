@@ -35,8 +35,8 @@ Note : Everything is connected with Firebase
 
 Recipe-inator started as an idea for a University project in 2021. It was successfully developed for Android in Java with my colleague Martin Unterhuber.
 
-Read about it : [ResearcPaper](https://drive.google.com/file/d/1e7d8fu4iPJTnkizGpFWtx8trwKN6qgZm/view)
-GitHub Repository : [Recipeinator](https://github.com/AdinHal/Recipe-inator)
+- Read about it : [ResearcPaper](https://drive.google.com/file/d/1e7d8fu4iPJTnkizGpFWtx8trwKN6qgZm/view)
+- GitHub Repository : [Recipeinator](https://github.com/AdinHal/Recipe-inator)
 
 ### UI/UX
 
