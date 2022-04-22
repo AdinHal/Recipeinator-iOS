@@ -12,7 +12,7 @@ See more : [Firebase](https://firebase.google.com/docs)
 
 ### `SDWebImage`
 
-This library provides an async image downloader with cache support. For convenience, we added categories for UI elements like UIImageView, UIButton, MKAnnotationView.
+This library provides an async image downloader with cache support. For convenience, also available are categories for UI elements like UIImageView, UIButton, MKAnnotationView.
 
 See more : [SDWebImage](https://github.com/SDWebImage/SDWebImage)
 
